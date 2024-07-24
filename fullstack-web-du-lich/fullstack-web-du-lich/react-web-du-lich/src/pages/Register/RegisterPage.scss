@@ -1,0 +1,26 @@
+// RegisterPage.scss
+
+.register-page {
+    max-width: 400px;
+    margin: 50px auto;
+  
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    form {
+      label {
+        margin-bottom: 5px;
+      }
+  
+      .form-group {
+        margin-bottom: 20px;
+      }
+  
+      .btn-primary {
+        width: 100%;
+      }
+    }
+  }
+  

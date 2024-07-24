@@ -1,0 +1,19 @@
+.slider-wrapper {
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+  
+    .carousel {
+      max-width: 100vw;
+  
+      .carousel-inner {
+        display: flex;
+        flex-direction: row;
+  
+        .carousel-item {
+          flex: 0 0 auto;
+        }
+      }
+    }
+  }
+  

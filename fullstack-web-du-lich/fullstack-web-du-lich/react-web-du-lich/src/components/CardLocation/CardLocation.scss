@@ -1,0 +1,12 @@
+/* CardLocation.scss */
+
+.card-location {
+    max-width: 300px; /* Đặt chiều rộng tối đa */
+  }
+  
+  .card-location .card-img {
+    width: 100%; /* Đảm bảo ảnh chiếm toàn bộ chiều rộng của thẻ */
+    height: 200px; /* Đặt chiều cao */
+    object-fit: cover; /* Đảm bảo ảnh không bị méo khi kích thước thay đổi */
+  }
+  

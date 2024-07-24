@@ -1,0 +1,19 @@
+.manage-user-container {
+    h2 {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .table-bill {
+        tr {
+            .icon {
+                i {
+                    margin: auto 7px;
+                    cursor: pointer;
+                    &:hover {
+                        scale: 150%;
+                    }
+                }
+            }
+        }
+    }
+}

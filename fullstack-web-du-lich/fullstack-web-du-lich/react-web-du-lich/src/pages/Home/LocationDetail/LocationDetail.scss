@@ -1,0 +1,28 @@
+
+.review {
+    display: flex;
+
+    .username-review {
+        width: 40%;
+        display: flex;
+        gap: 5px;
+        .circle {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%; /* Đặt border-radius là 50% để tạo thành hình tròn */
+            background-color: #add8e6; /* Màu xanh dương nhạt */
+        }
+        .username {
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .time {
+            font-size: 13px;
+            transition: 0.8;
+        }
+    }
+
+    .content-review {
+        width: 60%;
+    }
+}

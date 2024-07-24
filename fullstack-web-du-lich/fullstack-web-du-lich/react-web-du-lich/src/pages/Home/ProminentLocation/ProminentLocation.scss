@@ -1,0 +1,18 @@
+/* ProminentLocation.scss */
+
+.prominent-location {
+    max-width: 1200px; /* Đặt chiều rộng tối đa cho danh sách */
+    margin: 0 auto; /* Canh giữa danh sách */
+  }
+  
+  .location-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card-location {
+    flex: 1 0 calc(25% - 10px); /* Chiếm 25% chiều rộng, có khoảng cách giữa thẻ là 10px */
+    margin-bottom: 20px;
+  }
+  

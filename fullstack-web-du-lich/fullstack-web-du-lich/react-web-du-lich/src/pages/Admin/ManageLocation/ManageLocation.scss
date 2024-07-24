@@ -1,0 +1,32 @@
+// Thêm vào file ManageLocation.scss
+
+.add-location-button {
+    text-align: left; // Để canh trái
+    margin-bottom: 20px; // Để tạo khoảng cách giữa nút và bảng
+  }
+
+  .icon-manage {
+    display: flex;
+    justify-content: space-between;
+    width: 70px; // Điều chỉnh chiều rộng của phần tử chứa icon
+  
+    i {
+      font-size: 20px; // Điều chỉnh kích thước của icon
+      margin: 0 5px; // Điều chỉnh khoảng cách giữa các icon
+  
+      &:hover {
+        color: #007bff; // Đổi màu khi hover
+      }
+    }
+  }
+  .description-column {
+    max-width: 200px;  /* Đặt giới hạn chiều rộng của cột mô tả */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+ }
+ 
+ .actions-column {
+    text-align: center;
+ }
+  

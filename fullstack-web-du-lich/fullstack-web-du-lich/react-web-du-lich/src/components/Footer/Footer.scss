@@ -1,0 +1,60 @@
+// Footer.scss
+
+$primary-color: #3498db;
+$secondary-color: #2c3e50;
+$background-color: #ecf0f1;
+$text-color: #FFFFFF;
+
+.footer {
+  background-color: $secondary-color;
+  color: $text-color;
+  padding: 20px 0;
+  text-align: center;
+
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .footer-section {
+      flex: 1;
+      margin: 0 15px;
+
+      h4 {
+        color: $primary-color;
+        margin-bottom: 15px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+          margin-bottom: 10px;
+        }
+
+        a {
+          color: $text-color;
+          text-decoration: none;
+          &:hover {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #95a5a6;
+
+    a {
+      color: $primary-color;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
